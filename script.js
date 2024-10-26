@@ -12,7 +12,7 @@ Math.trunc(
          Random orqali chiqqan son ${a}edi
           Biz Uni 2kopaytirdik ${a *2}  chiqdi
          Biz uni 2ga boldik ${a / 2} chiqdi
-         shu sonni 3ga boldik ${a/2/3} chiqdi
+         shu sonni qoldigi ${a/2-Math.trunc(a/2)} chiqdi
          `)
 )
 
